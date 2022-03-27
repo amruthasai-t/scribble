@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scribble</title>
+    <script type="text/javascript" src="C:\Users\tamru\scribble\script.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link rel="icon" href="C:\Users\tamru\scribble\favicon.ico"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--the canvas-->
+    <canvas class="canvas"  id="canvas"></canvas><br>
+    <div class="toolset">
+        <p class="heading"><bold>Scribble</bold></p>
+        <!--The tools-->
+        <!--Colors-->
+        <span class="size">Color:</span>
+        <input type="color" class="colorchose" id="colorchose">
+        <!--Thickness of the brush-->
+        <span class="size">Width:</span>
+        <input type="range" class="brush" id="linewidth" min="1" max="20">
+        <!--Clear-->
+        <button class="clear" title="you can clear everything" id="clear">I HATE IT!</button>
+    </div>
+</body>
+</html>

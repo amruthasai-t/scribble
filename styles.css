@@ -1,0 +1,52 @@
+.heading{
+    font-family: 'Lobster', cursive;
+    color: #3a0ca3;
+    float: left;
+    padding-left: 0px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    margin-left: 5px;
+
+}
+.canvas{
+    
+    border-radius: 2%;
+    margin-bottom: 0px;
+    background-color: white;
+    color: white;
+}
+body{
+    
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #cbc0d3;
+}
+.clear {
+    background-color: #e76f51;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 12px;
+    margin: 3px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+.colorchose,.brush,.size{
+      float: left;
+      margin-left: 10px;
+      margin-top: 7px;
+}
+.colorchose{
+      margin-top: 7px;
+}
+  
+ 
